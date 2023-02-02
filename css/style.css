@@ -38,7 +38,6 @@ h1 {
 .col {
     padding: 0.5rem 1rem 0.5rem 1rem;
     float: left;
-    background-color: #e53170;
     width: calc((100% / 3));
 }
 
@@ -54,7 +53,7 @@ img {
 }
 
 .info {
-    min-height: 100px;
+    max-height: 100px;
     padding-top: 0.8rem;
     padding-bottom: 0.8rem;
     line-height: 1.6rem;
