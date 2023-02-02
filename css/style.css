@@ -39,11 +39,29 @@ h1 {
     padding: 0.5rem 1rem 0.5rem 1rem;
     float: left;
     background-color: #e53170;
-    height: 200px;
     width: calc((100% / 3));
 }
 
 .box {
     background-color: black;
     height: 100px;
+}
+
+img {
+    float: left;
+    height: 100px;
+    margin-right: 1rem;
+}
+
+.info {
+    min-height: 100px;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    line-height: 1.6rem;
+    color: white;
+    overflow: hidden;
+}
+
+.mail {
+    color: #53b6cd;
 }
