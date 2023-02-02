@@ -1,0 +1,49 @@
+/*  Color 
+    Title #e53170
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+body {
+    font-family: 'Fredoka', sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    color: #e53170;
+    margin-top: 1.7rem;
+}
+
+.container>p {
+    text-align: justify;
+    padding: 2.5rem 1rem 2rem 1rem;
+    font-size: 1rem;
+}
+
+.col {
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    float: left;
+    background-color: #e53170;
+    height: 200px;
+    width: calc((100% / 3));
+}
+
+.box {
+    background-color: black;
+    height: 100px;
+}
